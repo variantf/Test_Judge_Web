@@ -49,7 +49,7 @@ namespace Test_Judge_Web
                         using (BinaryWriter Writer = new BinaryWriter(stream))
                         {
                             //Password Here!!
-                            Writer.Write((long)123);
+                            Writer.Write(34659308463532339);
                         }
                         sock.Send(stream.ToArray());
                     }
